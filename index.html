@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Plant Mom 🪴</title>
+    <style>
+      body {
+        background: linear-gradient(to top, #b7e5bb 0%, #deecdd 100%);
+      }
+
+      h1 {
+        background-color: #3b7f52c9;
+        border-radius: 10px;
+        color: white;
+        font-family: segoe script;
+        font-size: 28px;
+        font-weight: lighter;
+        margin: 20px 0px 0px 0px;
+        text-align: center;
+      }
+
+      h2 {
+        color: rgb(159, 67, 36);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+        font-weight: lighter;
+        margin: 15px 0px 40px 0px;
+        text-align: center;
+      }
+
+      img {
+        border-radius: 4px;
+      }
+
+      p {
+        color: #1c4328;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 16px;
+        line-height: 1.3;
+        padding: 15px 15px 8px 15px;
+      }
+
+      ul {
+        padding: 0;
+      }
+
+      li {
+        color: #1c4328;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+        line-height: 1.3;
+        list-style: none;
+        margin: 0 auto;
+        max-width: 85%;
+        padding: 10px;
+      }
+
+      button {
+        border: 1px solid #1c4328;
+        border-radius: 4px;
+        box-shadow: rgba(37, 39, 89, 0.08) 0px 4px 4px 0;
+        color: #1c4328;
+        display: block;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 18px;
+        margin: 0 auto;
+        padding: 8px 12px;
+        transition: all 200ms ease-in-out;
+      }
+
+      button:hover {
+        cursor: pointer;
+        opacity: 0.7;
+      }
+
+      a {
+        color: rgb(159, 67, 36);
+        text-decoration: none;
+        font-family: segoe script;
+        font-size: 20px;
+        font-weight: 600;
+        transition: all 200ms ease-in-out;
+      }
+
+      a:hover {
+        cursor: pointer;
+        text-decoration: underline;
+      }
+
+      footer {
+        font-family: monospace;
+        font-size: 15px;
+        margin-top: 30px;
+        opacity: 0.6;
+        text-align: center;
+      }
+
+      .container {
+        background-color: rgba(255, 255, 255, 0.509);
+        border-radius: 8px;
+        margin: 20px auto;
+        max-width: 600px;
+        padding: 30px;
+      }
+
+      .main-image {
+        max-width: 100%;
+        transition: all 200ms ease-in-out;
+      }
+
+      .main-image:hover {
+        cursor: pointer;
+        opacity: 0.7;
+        transform: scale(1.1);
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+      }
+
+      .gallery-image {
+        height: 200px;
+        transition: all 200ms ease-in-out;
+        width: 100%;
+      }
+
+      .gallery-image:hover {
+        opacity: 0.7;
+        transform: scale(1.1);
+      }
+
+      .mode-button {
+        background-color: #262f04ec;
+        border: #262f04ec;
+        color: white;
+        font-size: 12px;
+        margin: 0 auto;
+        padding: 5px 8px;
+      }
+
+      .dark {
+        background: linear-gradient(
+          109.6deg,
+          rgb(39, 97, 79) 11.2%,
+          rgb(32, 40, 48) 41.3%
+        );
+      }
+
+      .dark .container {
+        background: rgba(0, 0, 0, 0.409);
+      }
+
+      .dark h1 {
+        background-color: rgba(183, 170, 75, 0.815);
+        color: black;
+      }
+
+      .dark h2,
+      .dark a {
+        color: rgb(197, 215, 175);
+      }
+      .dark p,
+      .dark li {
+        color: rgba(183, 170, 75, 0.815);
+      }
+
+      .dark footer {
+        color: white;
+      }
+
+      .dark button {
+        background-color: #dbecd9c7;
+        color: #1c4328;
+      }
+    </style>
+  </head>
+  <body>
+    <button class="mode-button">CHANGE MODE</button>
+
+    <div class="container">
+      <h1>My favorite hobby: collecting plants</h1>
+
+      <h2><em>…and then watching them die</em></h2>
+
+      <a
+        href="https://www.youtube.com/watch?v=J1LW1Nz0pd4"
+        target="_blank"
+      >
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/101/904/original/plant-shelves.jpg?1698235377"
+          class="main-image"
+        />
+      </a>
+
+      <div class="grid">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/101/905/original/wilting.jpg?1698235397"
+          class="gallery-image"
+        />
+
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/101/901/original/aerial.jpg?1698235211"
+          class="gallery-image"
+        />
+
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/101/903/original/he_dead.jpg?1698235331"
+          class="gallery-image"
+        />
+
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/101/902/original/grave.jpg?1698235296"
+          class="gallery-image"
+        />
+      </div>
+
+      <p>
+        Are you looking for a fun new activity that won’t interfere with your
+        laziness? Follow my step-by-step guide to accidentally killing every
+        other living thing in your household.
+      </p>
+
+      <ul>
+        <li>
+          <b>Step one:</b> Overspend on plants at your local garden center and
+          start calling yourself a plant mom.
+        </li>
+
+        <li>
+          <b>Step two:</b> Enjoy the benefits of a greener living space for 6 to
+          8 weeks.
+        </li>
+        <li>
+          <b>Step three:</b> Set—and then repeatedly ignore—dozens of reminders
+          to feed, water, and re-pot your newest family members.
+        </li>
+        <li>
+          <b>Step four:</b> Watch your beloved plant babies wilt and die one by
+          one. Do nothing.
+        </li>
+        <li><b>Step five:</b> Repeat steps one through five.</li>
+      </ul>
+
+      <p>
+        👉
+        <a
+          href="https://www.seattletimes.com/business/real-estate/how-to-kill-your-houseplants/"
+          target="_blank"
+          >More tips</a
+        >
+        on mass-murdering your plants
+      </p>
+
+      <footer>Written ✍️ and coded 👩‍💻 by Jamie Leigh</footer>
+    </div>
+    <script>
+      function changeMode() {
+        let body = document.querySelector("body");
+        if (body.classList.contains("dark")) {
+          body.classList.remove("dark");
+        } else {
+          body.classList.add("dark");
+        }
+      }
+
+      let modeButton = document.querySelector(".mode-button");
+      modeButton.addEventListener("click", changeMode);
+    </script>
+  </body>
+</html>
